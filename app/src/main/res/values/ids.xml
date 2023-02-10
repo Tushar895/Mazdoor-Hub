@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="painter" type="id" />
+    <item name="heat" type="id" />
+    <item name="washing" type="id" />
+</resources>

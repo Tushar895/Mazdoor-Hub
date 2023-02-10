@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img2"
+    tools:context=".Services">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/appliance"
+                android:layout_width="308dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="150dp"
+                android:text="Appliances Repair"
+                android:textSize="18dp"/>
+
+            <Button
+                android:id="@+id/cleaning"
+                android:layout_width="308dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="220dp"
+                android:text="Cleaning And PestControl"
+                android:textSize="18dp"/>
+
+            <Button
+                android:id="@+id/electrician"
+                android:layout_width="308dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="310dp"
+                android:text="Electrician"
+                android:textSize="18dp"/>
+
+            <Button
+                android:id="@+id/painting"
+                android:layout_width="308dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="380dp"
+                android:text="Painter"
+                android:textSize="18dp"/>
+
+
+            <Button
+                android:id="@+id/maid"
+                android:layout_width="308dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="450dp"
+                android:text="Maid "
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/chef"
+                android:layout_width="308dp"
+                android:layout_height="50dp"
+                android:text="Chef"
+                android:layout_marginTop="520dp"
+                android:layout_marginLeft="40dp"
+                android:textSize="18dp"/>
+
+            <Button
+                android:id="@+id/labour"
+                android:layout_width="308dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="590dp"
+                android:text="Labour for farms"
+                android:textSize="18dp"/>
+
+            <Button
+                android:id="@+id/house"
+                android:layout_width="308dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="660dp"
+                android:text="House Construction"
+                android:textSize="18dp"/>
+
+            <Button
+                android:id="@+id/carpenter"
+                android:layout_width="308dp"
+                android:layout_height="50dp"
+                android:text="Carpenter"
+                android:layout_marginTop="730dp"
+                android:layout_marginLeft="40dp"
+                android:textSize="18dp"/>
+
+            <Button
+                android:id="@+id/plumber"
+                android:layout_width="308dp"
+                android:layout_height="50dp"
+                android:text="Plumber"
+                android:layout_marginTop="800dp"
+                android:layout_marginLeft="40dp"
+                android:textSize="18dp"/>
+
+
+            <Button
+                android:id="@+id/architect"
+                android:layout_width="308dp"
+                android:layout_height="50dp"
+                android:text="Architect"
+                android:layout_marginTop="870dp"
+                android:layout_marginLeft="40dp"
+                android:textSize="18dp"/>
+
+
+            <Button
+                android:id="@+id/interior"
+                android:layout_width="308dp"
+                android:layout_height="50dp"
+                android:text="Interior Deziner"
+                android:layout_marginTop="940dp"
+                android:layout_marginLeft="40dp"
+                android:textSize="18dp"/>
+
+
+
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <TextView
+        android:id="@+id/services"
+        android:layout_width="190dp"
+        android:layout_height="71dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Services"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
+
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="670dp"
+        android:gravity="center"
+        android:text="-------------Please Select An option-------------"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</RelativeLayout>

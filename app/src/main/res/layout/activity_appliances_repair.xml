@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/img2"
+    tools:context=".Appliances_Repair">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_marginTop="60dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Appliances"
+        android:textSize="50dp"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"/>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heading"
+        android:layout_marginTop="30dp"
+        android:rowCount="5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:columnCount="1"
+        >
+        <Button
+            android:id="@+id/tel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/heading"
+            android:text="Television"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"/>
+        <Button
+            android:id="@id/heat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tel"
+            android:text="Heater"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"/>
+        <Button
+            android:id="@+id/refri"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/heat"
+            android:text="Refrigerator"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:gravity="center"/>
+        <Button
+            android:id="@id/washing"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/refri"
+            android:layout_gravity="center_horizontal"
+            android:text="Washing Machine"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"/>
+        <Button
+            android:id="@+id/Ac"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/washing"
+            android:text="Air Conditioner"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center" />
+    </GridLayout>
+
+
+
+
+</RelativeLayout>

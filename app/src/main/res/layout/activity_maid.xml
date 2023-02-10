@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img2"
+    tools:context=".Maid">
+
+
+    <TextView
+        android:id="@+id/maid"
+        android:layout_marginTop="60dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Maid"
+        android:textSize="50dp"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"/>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/maid"
+        android:layout_marginTop="30dp"
+        android:rowCount="5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:columnCount="1"
+        >
+        <Button
+            android:id="@+id/Home"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/heading"
+            android:text="Home"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="70dp"
+            android:gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/workspace"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_below="@id/tel"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="Work Space"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+
+
+    </GridLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="620dp"
+        android:gravity="center"
+        android:text="-----We clean so that you           don't have to! -----"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>

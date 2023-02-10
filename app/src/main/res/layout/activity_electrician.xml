@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img2"
+    tools:context=".Electrician">
+
+    <TextView
+        android:id="@+id/repair"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center_horizontal"
+        android:text="Repair And Installation"
+        android:textColor="@color/white"
+        android:textSize="50dp" />
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/repair"
+        android:layout_marginTop="30dp"
+        android:rowCount="5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:columnCount="1"
+        >
+        <Button
+            android:id="@+id/wiring"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/heading"
+            android:text="Wiring"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"/>
+
+        <Button
+            android:id="@id/light"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_below="@id/tel"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="Light And Fixtures"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/Duct"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/heat"
+            android:text="Duct / Vent"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:gravity="center"/>
+        <Button
+            android:id="@id/home"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/refri"
+            android:layout_gravity="center_horizontal"
+            android:text="Home Theater"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"/>
+        <Button
+            android:id="@+id/Switch"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/washing"
+            android:text="Switch Board"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center" />
+    </GridLayout>
+
+</RelativeLayout>

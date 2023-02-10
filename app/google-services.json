@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "235025450506",
+    "project_id": "mazdoorhub-c797f",
+    "storage_bucket": "mazdoorhub-c797f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235025450506:android:a2faa4631418e98b59c1f3",
+        "android_client_info": {
+          "package_name": "com.example.majdoorhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235025450506-os4h8kn3cubfg0khp69emu7c5f5ccsvb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.majdoorhub",
+            "certificate_hash": "cd22f24d47ac62725cdc975646b8de59b305e7b0"
+          }
+        },
+        {
+          "client_id": "235025450506-l9u2s95j9rmo21qn3gn6tkqrctp19c11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALfDfRizufq31Jq1BEdysSzqp1BaCP3Lo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235025450506-l9u2s95j9rmo21qn3gn6tkqrctp19c11.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
